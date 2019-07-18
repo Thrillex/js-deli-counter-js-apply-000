@@ -21,7 +21,7 @@ function currentLine(deliLine){
 } else {
   var list = `The line is currently:`
   deliLine.forEach(function(item,index,array){
-    var entry = ` ${index}. ${item},`;
+    var entry = ` ${index+1}. ${item},`;
     list = list.concat(entry);});
     return list;
 
