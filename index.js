@@ -20,7 +20,7 @@ function currentLine(deliLine){
   return("The line is currently empty.")
 } else {
   var list = `The line is currently:`
-  deliLine.forEach(function(item,index,array)){
+  deliLine.forEach(function(item,index,array){
     var entry = ` ${index}. ${item},`;
     list = list.concat(entry);
 } return list;
