@@ -23,6 +23,7 @@ function currentLine(deliLine){
   deliLine.forEach(function(item,index,array){
     var entry = ` ${index+1}. ${item},`;
     list = list.concat(entry);});
+    list.slice(-1);
     return list;
 
 }
