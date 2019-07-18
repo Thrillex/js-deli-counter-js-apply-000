@@ -22,11 +22,10 @@ function currentLine(deliLine){
   var list = `The line is currently:`
   deliLine.forEach(function(item,index,array){
     var entry = ` ${index}. ${item},`;
-    list = list.concat(entry);
-return list;
-}
-
+    list = list.concat(entry);});
+    return list;
 
 }
+
 
 }
