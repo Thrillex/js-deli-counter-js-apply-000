@@ -25,7 +25,7 @@ function currentLine(deliLine){
     list = list.concat(entry);
     
 } 
-} return list;
+ return list;
 
 
 
