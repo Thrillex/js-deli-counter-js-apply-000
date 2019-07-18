@@ -23,8 +23,9 @@ function currentLine(deliLine){
   deliLine.forEach(function(item,index,array){
     var entry = ` ${index}. ${item},`;
     list = list.concat(entry);
+    
+} 
 } return list;
-}
 
 
 
